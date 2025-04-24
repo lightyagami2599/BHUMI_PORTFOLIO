@@ -9,13 +9,14 @@ const VideoSection: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
             <div className="relative pb-[56.25%] h-0">
-              <iframe
+              <video
                 className="absolute top-0 left-0 w-full h-full"
-                src="public/assets/video.mp4"
+                src="/assets/video.mp4"
+                controls
                 title="Architecture Portfolio Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              >
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
           
